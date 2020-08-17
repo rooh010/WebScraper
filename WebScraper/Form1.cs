@@ -72,7 +72,7 @@ namespace WebScraper
             {
                 CleanUpResults(element);
 
-                richTextBox1.AppendText($"{Title} - {Url}{Environment.NewLine}");
+                richTextBox1.AppendText($"{Title} - {Url}{Environment.NewLine}{Environment.NewLine}");
             }
         }
 
